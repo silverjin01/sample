@@ -1,0 +1,75 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding: 5px;
+			margin: 5px;
+		}
+		section{
+			background-color: yellow;
+		}
+		h6, h5{
+			display: inline;
+		}
+		#date{
+			background-color: white;
+		}
+		#people{
+			background-color: white;
+		}
+		#search{
+			background-color: white;
+		}
+		#level{
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+<section>
+	<h3>노랑풍선</h3>
+	<div>
+		<h6>목적지, 호텔명, 랜드마크 검색</h6><br>
+		<input type="search" name="search" value="여행지를 검색하세요">
+	</div>
+
+	<h5>날짜</h5>
+
+	<div id="date">
+		<input type="date" name="date" value="2019-00-00">
+		~
+		<input type="date" name="date" value="2019-00-00">
+	</div>
+	
+	<h5>인원</h5>
+	<div id="people">
+		<h6>성인(만 12세 이상) | 소아(만 2세 ~ 만 12세 이상) | 유아(만 24개월 미만)</h6>
+		<br>
+			&nbsp &nbsp <input type="number" name="number" value="0" min="0" max="10"> &nbsp &nbsp &nbsp
+			<input type="number" name="number" value="0" min="0" max="10">
+			&nbsp &nbsp &nbsp &nbsp
+			<input type="number" name="number" value="0" min="0" max="10">
+	</div>
+
+	<h5>호텔등급, 가격조건 검색 + </h5>
+
+	<div id="level">
+		<h5>호텔 등급</h5>
+		<input type="checkbox" name="check1" value="1"> 별 2개 이하
+		<input type="checkbox" name="check1" value="1"> 별 3개
+		<input type="checkbox" name="check1" value="1"> 별 4개
+		<input type="checkbox" name="check1" value="1"> 별 5개
+		<br>
+		<h5>가격 범위</h5>
+		<h6>1박 요금 0원 ~ 1,000,000원</h6>
+		<br>
+		<input type="number" name="number" value="0" min="0" max="1000000" step="10000">
+	</div>
+</section>
+<section id="search">
+		<input type="submit" value="검색">
+</section>
+</body>
+</html>

@@ -1,0 +1,564 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding: 0px;
+			margin: 3px;
+		}
+		.clear{
+			clear: both;
+		}
+		#top1{
+			float: left;
+			background-color: #ccc;
+			text-align: center;
+			width: 420px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#top2{
+			float: left;
+			background-color: #ccc;
+			text-align: center;
+			width: 420px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#top3{
+			float: left;
+			background-color: #ccc;
+			text-align: center;
+			width: 420px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#header1{
+			width: 1300px;
+			margin: 10px auto;
+			align-self: center;
+		}
+		#a{
+			background-color: yellow;
+			border: solid 2px #ccc;
+			padding-right: 1291px;
+			padding: 5px;
+			margin-top: 5px;
+		}
+		#a li{
+			display: inline;
+			margin-left: 5px;
+			list-style-type: none;
+		}
+		#a img{
+			width: 40px;
+			margin-top: 1px;
+			height: 40px;
+		}
+		#top4{
+			float: left;
+			background-color: yellow;
+			text-align: center;
+			width: 25px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#top4 img{
+			width: 25px;
+		}
+		#top5{
+			float: left;
+			background-color: yellow;
+			text-align: left;
+			width: 1248px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+			height: 26px;
+		}
+		#header2{
+			width: 1000px;
+			margin-top: 5px;
+		}
+		table{
+			width: 1255px;
+		}
+		#right{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<!--<header>
+	<div id="header1">
+		<div id = "top1">
+			 여행
+		</div>
+		<div id = "top2">
+			항공권
+		</div>
+		<div id = "top3">
+			호텔
+		</div>
+	</div>
+</header>-->
+	<div class="clear"></div> <!--float 속성 해제 -->
+<header>
+	<div id="header2">
+		<!--<div id = "top4">
+			 <img src="./img./list.PNG">
+		</div>-->
+		<div id = "top5">
+			<h3>노랑풍선</h3>
+		</div>
+	</div>
+</header>
+	<div class="clear"></div> <!--float 속성 해제 -->
+<section id="like">
+<section>
+	<table border="1">
+		<tr>
+			<th rowspan="12"><h3>해외항공</h3></th>
+			<td rowspan="6"><input type="radio" name="radio" value="1"> 한국 -> 해외</td>
+			<td rowspan="3"><input type="radio" name="radio2" value="11"> 왕복</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">인천/김포</option>
+				<option value="2">부산</option>
+				<option value="3">청주</option>
+				<option value="4">여수</option>
+				<option value="5">포항</option>
+				<option value="6">대구</option>
+				<option value="7">제주</option></td>
+			<td id="right"> ---><br>
+				<img src="./img./airplane.PNG" width="30"><br>
+				<---	</td>
+			<td><h3>도착도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">일본-도쿄</option>
+				<option value="2">일본-오사카</option>
+				<option value="3">일본-오키나와</option>
+				<option value="4">일본-후쿠오카</option>
+				<option value="5">중국-상해</option>
+				<option value="6">중국-북경</option>
+				<option value="7">중국-광저우</option>
+				<option value="8">아시아-홍콩</option>
+				<option value="9">아시아-방콕</option>
+				<option value="10">아시아-대반</option>
+				<option value="11">아시아-마닐라</option>
+				<option value="12">아시아-다낭</option>
+				<option value="13">아시아-세부</option>
+				<option value="14">아시아-발리</option>
+				<option value="15">미주/중남미-로스엔젤레스</option>
+				<option value="16">미주/중남미-뉴욕</option>
+				<option value="17">미주/중남미-샌프란시스코</option>
+				<option value="18">미주/중남미-라스베가스</option>
+				<option value="19">미주/중남미-하와이/호놀룰루</option>
+				<option value="20">미주/중남미-시애틀</option>
+				<option value="21">미주/중남미-벤쿠버</option>
+				<option value="22">미주/중남미-시카고</option>
+				<option value="23">미주/중남미-워싱턴</option>
+				<option value="24">유럽-파리</option>
+				<option value="25">유럽-프랑스</option>
+				<option value="26">대양주-괌</option>
+				<option value="27">대양주-사이판</option>
+				<option value="28">대양주-시드니</option>
+				<option value="29">중동/아프리카-두바이</option>
+				<option value="30">국내-인천</option>
+				<option value="31">국내-김포</option>
+				<option value="32">국내-부산</option>
+				<option value="33">국내-제주</option>
+				<option value="32">국내-청주</option>
+				<option value="33">국내-대구</option></td>
+		</tr>
+		<tr>
+			<td><h3>출발일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+			<td>&nbsp &nbsp &nbsp</td>
+			<td><h3>귀국일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+		</tr>
+		<tr>
+			<td><h4>성인(만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>소아(만 2세 ~ 만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>유아(만 24개월 미만)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"><input type="radio" name="radio2" value="22"> 편도</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">인천/김포</option>
+				<option value="2">부산</option>
+				<option value="3">청주</option>
+				<option value="4">여수</option>
+				<option value="5">포항</option>
+				<option value="6">대구</option>
+				<option value="7">제주</option></td>
+			<td id="right">---><br>
+				<img src="./img./airplane.PNG" width="30"><br>
+				<---	</td>
+			<td><h3>도착도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">일본-도쿄</option>
+				<option value="2">일본-오사카</option>
+				<option value="3">일본-오키나와</option>
+				<option value="4">일본-후쿠오카</option>
+				<option value="5">중국-상해</option>
+				<option value="6">중국-북경</option>
+				<option value="7">중국-광저우</option>
+				<option value="8">아시아-홍콩</option>
+				<option value="9">아시아-방콕</option>
+				<option value="10">아시아-대반</option>
+				<option value="11">아시아-마닐라</option>
+				<option value="12">아시아-다낭</option>
+				<option value="13">아시아-세부</option>
+				<option value="14">아시아-발리</option>
+				<option value="15">미주/중남미-로스엔젤레스</option>
+				<option value="16">미주/중남미-뉴욕</option>
+				<option value="17">미주/중남미-샌프란시스코</option>
+				<option value="18">미주/중남미-라스베가스</option>
+				<option value="19">미주/중남미-하와이/호놀룰루</option>
+				<option value="20">미주/중남미-시애틀</option>
+				<option value="21">미주/중남미-벤쿠버</option>
+				<option value="22">미주/중남미-시카고</option>
+				<option value="23">미주/중남미-워싱턴</option>
+				<option value="24">유럽-파리</option>
+				<option value="25">유럽-프랑스</option>
+				<option value="26">대양주-괌</option>
+				<option value="27">대양주-사이판</option>
+				<option value="28">대양주-시드니</option>
+				<option value="29">중동/아프리카-두바이</option>
+				<option value="30">국내-인천</option>
+				<option value="31">국내-김포</option>
+				<option value="32">국내-부산</option>
+				<option value="33">국내-제주</option>
+				<option value="32">국내-청주</option>
+				<option value="33">국내-대구</option>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="3"><h3>출발일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+		</tr>
+
+		<tr>
+			<td><h4>성인(만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>소아(만 2세 ~ 만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>유아(만 24개월 미만)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+		</tr>
+
+		<tr>
+			<td rowspan="6"><input type="radio" name="radio" value="2"> 해외 -> 한국</td>
+			<td rowspan="3"><input type="radio" name="radio2" value="1"> 왕복</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">일본-도쿄</option>
+				<option value="2">일본-오사카</option>
+				<option value="3">일본-오키나와</option>
+				<option value="4">일본-후쿠오카</option>
+				<option value="5">중국-상해</option>
+				<option value="6">중국-북경</option>
+				<option value="7">중국-광저우</option>
+				<option value="8">아시아-홍콩</option>
+				<option value="9">아시아-방콕</option>
+				<option value="10">아시아-대반</option>
+				<option value="11">아시아-마닐라</option>
+				<option value="12">아시아-다낭</option>
+				<option value="13">아시아-세부</option>
+				<option value="14">아시아-발리</option>
+				<option value="15">미주/중남미-로스엔젤레스</option>
+				<option value="16">미주/중남미-뉴욕</option>
+				<option value="17">미주/중남미-샌프란시스코</option>
+				<option value="18">미주/중남미-라스베가스</option>
+				<option value="19">미주/중남미-하와이/호놀룰루</option>
+				<option value="20">미주/중남미-시애틀</option>
+				<option value="21">미주/중남미-벤쿠버</option>
+				<option value="22">미주/중남미-시카고</option>
+				<option value="23">미주/중남미-워싱턴</option>
+				<option value="24">유럽-파리</option>
+				<option value="25">유럽-프랑스</option>
+				<option value="26">대양주-괌</option>
+				<option value="27">대양주-사이판</option>
+				<option value="28">대양주-시드니</option>
+				<option value="29">중동/아프리카-두바이</option>
+				<option value="30">국내-인천</option>
+				<option value="31">국내-김포</option>
+				<option value="32">국내-부산</option>
+				<option value="33">국내-제주</option>
+				<option value="32">국내-청주</option>
+				<option value="33">국내-대구</option>
+			</td>
+			<td id="right">---><br>
+				<img src="./img./airplane.PNG" width="30"><br>
+				<---	
+			</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">인천/김포</option>
+				<option value="2">부산</option>
+				<option value="3">청주</option>
+				<option value="4">여수</option>
+				<option value="5">포항</option>
+				<option value="6">대구</option>
+				<option value="7">제주</option>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><h3>출발일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+			<td>&nbsp &nbsp &nbsp</td>
+			<td><h3>귀국일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+		</tr>
+		<tr>
+			<td><h4>성인(만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>소아(만 2세 ~ 만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>유아(만 24개월 미만)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+		</tr>
+
+		<tr>
+			<td rowspan="3"><input type="radio" name="radio2" value="2"> 편도</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">일본-도쿄</option>
+				<option value="2">일본-오사카</option>
+				<option value="3">일본-오키나와</option>
+				<option value="4">일본-후쿠오카</option>
+				<option value="5">중국-상해</option>
+				<option value="6">중국-북경</option>
+				<option value="7">중국-광저우</option>
+				<option value="8">아시아-홍콩</option>
+				<option value="9">아시아-방콕</option>
+				<option value="10">아시아-대반</option>
+				<option value="11">아시아-마닐라</option>
+				<option value="12">아시아-다낭</option>
+				<option value="13">아시아-세부</option>
+				<option value="14">아시아-발리</option>
+				<option value="15">미주/중남미-로스엔젤레스</option>
+				<option value="16">미주/중남미-뉴욕</option>
+				<option value="17">미주/중남미-샌프란시스코</option>
+				<option value="18">미주/중남미-라스베가스</option>
+				<option value="19">미주/중남미-하와이/호놀룰루</option>
+				<option value="20">미주/중남미-시애틀</option>
+				<option value="21">미주/중남미-벤쿠버</option>
+				<option value="22">미주/중남미-시카고</option>
+				<option value="23">미주/중남미-워싱턴</option>
+				<option value="24">유럽-파리</option>
+				<option value="25">유럽-프랑스</option>
+				<option value="26">대양주-괌</option>
+				<option value="27">대양주-사이판</option>
+				<option value="28">대양주-시드니</option>
+				<option value="29">중동/아프리카-두바이</option>
+				<option value="30">국내-인천</option>
+				<option value="31">국내-김포</option>
+				<option value="32">국내-부산</option>
+				<option value="33">국내-제주</option>
+				<option value="32">국내-청주</option>
+				<option value="33">국내-대구</option>
+			</td>
+			<td id="right">---><br>
+				<img src="./img./airplane.PNG" width="30"><br>
+				<---	
+			</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">인천/김포</option>
+				<option value="2">부산</option>
+				<option value="3">청주</option>
+				<option value="4">여수</option>
+				<option value="5">포항</option>
+				<option value="6">대구</option>
+				<option value="7">제주</option>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3"><h3>출발일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+		</tr>
+
+		<tr>
+			<td><h4>성인(만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>소아(만 2세 ~ 만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>유아(만 24개월 미만)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+		</tr>
+
+	</table>
+	</section>
+
+<section>
+		<input type="submit" value="항공권검색">
+</section>
+
+<section>
+	<table border="1">
+		<tr>
+			<td rowspan="6"><h3>국내항공</h3></td>
+			<td rowspan="3"><input type="radio" name="radio2" value="1"> 왕복</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">일본-도쿄</option>
+				<option value="2">일본-오사카</option>
+				<option value="3">일본-오키나와</option>
+				<option value="4">일본-후쿠오카</option>
+				<option value="5">중국-상해</option>
+				<option value="6">중국-북경</option>
+				<option value="7">중국-광저우</option>
+				<option value="8">아시아-홍콩</option>
+				<option value="9">아시아-방콕</option>
+				<option value="10">아시아-대반</option>
+				<option value="11">아시아-마닐라</option>
+				<option value="12">아시아-다낭</option>
+				<option value="13">아시아-세부</option>
+				<option value="14">아시아-발리</option>
+				<option value="15">미주/중남미-로스엔젤레스</option>
+				<option value="16">미주/중남미-뉴욕</option>
+				<option value="17">미주/중남미-샌프란시스코</option>
+				<option value="18">미주/중남미-라스베가스</option>
+				<option value="19">미주/중남미-하와이/호놀룰루</option>
+				<option value="20">미주/중남미-시애틀</option>
+				<option value="21">미주/중남미-벤쿠버</option>
+				<option value="22">미주/중남미-시카고</option>
+				<option value="23">미주/중남미-워싱턴</option>
+				<option value="24">유럽-파리</option>
+				<option value="25">유럽-프랑스</option>
+				<option value="26">대양주-괌</option>
+				<option value="27">대양주-사이판</option>
+				<option value="28">대양주-시드니</option>
+				<option value="29">중동/아프리카-두바이</option>
+				<option value="30">국내-인천</option>
+				<option value="31">국내-김포</option>
+				<option value="32">국내-부산</option>
+				<option value="33">국내-제주</option>
+				<option value="32">국내-청주</option>
+				<option value="33">국내-대구</option>
+			</td>
+			<td id="right">---><br>
+				<img src="./img./airplane.PNG" width="30"><br>
+				<---	
+			</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">인천/김포</option>
+				<option value="2">부산</option>
+				<option value="3">청주</option>
+				<option value="4">여수</option>
+				<option value="5">포항</option>
+				<option value="6">대구</option>
+				<option value="7">제주</option>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><h3>출발일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+			<td>&nbsp &nbsp &nbsp</td>
+			<td><h3>귀국일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+		</tr>
+		<tr>
+			<td><h4>성인(만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>소아(만 2세 ~ 만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>유아(만 24개월 미만)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+		</tr>
+
+		<tr>
+			<td rowspan="3"><input type="radio" name="radio2" value="2"> 편도</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">일본-도쿄</option>
+				<option value="2">일본-오사카</option>
+				<option value="3">일본-오키나와</option>
+				<option value="4">일본-후쿠오카</option>
+				<option value="5">중국-상해</option>
+				<option value="6">중국-북경</option>
+				<option value="7">중국-광저우</option>
+				<option value="8">아시아-홍콩</option>
+				<option value="9">아시아-방콕</option>
+				<option value="10">아시아-대반</option>
+				<option value="11">아시아-마닐라</option>
+				<option value="12">아시아-다낭</option>
+				<option value="13">아시아-세부</option>
+				<option value="14">아시아-발리</option>
+				<option value="15">미주/중남미-로스엔젤레스</option>
+				<option value="16">미주/중남미-뉴욕</option>
+				<option value="17">미주/중남미-샌프란시스코</option>
+				<option value="18">미주/중남미-라스베가스</option>
+				<option value="19">미주/중남미-하와이/호놀룰루</option>
+				<option value="20">미주/중남미-시애틀</option>
+				<option value="21">미주/중남미-벤쿠버</option>
+				<option value="22">미주/중남미-시카고</option>
+				<option value="23">미주/중남미-워싱턴</option>
+				<option value="24">유럽-파리</option>
+				<option value="25">유럽-프랑스</option>
+				<option value="26">대양주-괌</option>
+				<option value="27">대양주-사이판</option>
+				<option value="28">대양주-시드니</option>
+				<option value="29">중동/아프리카-두바이</option>
+				<option value="30">국내-인천</option>
+				<option value="31">국내-김포</option>
+				<option value="32">국내-부산</option>
+				<option value="33">국내-제주</option>
+				<option value="32">국내-청주</option>
+				<option value="33">국내-대구</option>
+			</td>
+			<td id="right">---><br>
+				<img src="./img./airplane.PNG" width="30"><br>
+				<---	
+			</td>
+			<td><h3>출발도시선택</h3>
+				<select name="선택하시오">
+				<option value="1">인천/김포</option>
+				<option value="2">부산</option>
+				<option value="3">청주</option>
+				<option value="4">여수</option>
+				<option value="5">포항</option>
+				<option value="6">대구</option>
+				<option value="7">제주</option>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3"><h3>출발일</h3>
+				<input type="date" name="date" value="2019-00-00"></td>
+		</tr>
+
+		<tr>
+			<td><h4>성인(만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>소아(만 2세 ~ 만 12세 이상)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+			<td><h4>유아(만 24개월 미만)</h4>
+				<input type="number" name="number" value="0" min="0" max="10"></td>
+		</tr>
+	</table>
+</section>
+
+<section>
+		<input type="submit" value="항공권검색">
+</section>
+</section>
+</body>
+</html>

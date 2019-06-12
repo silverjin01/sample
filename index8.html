@@ -1,0 +1,439 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.clear{
+			clear: both;
+		}
+		#top1{
+			float: left;
+			background-color: #ccc;
+			text-align: center;
+			width: 420px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#top2{
+			float: left;
+			background-color: #ccc;
+			text-align: center;
+			width: 420px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#top3{
+			float: left;
+			background-color: #ccc;
+			text-align: center;
+			width: 420px;
+			margin-right: 1px;
+			margin-left: 1px;
+			padding: 5px;
+		}
+		#header1{
+			width: 1300px;
+			margin: 10px auto;
+			align-self: center;
+		}
+		header{
+			width: 1300px;
+			height: 25px;
+			margin: 10px auto;
+			border: solid 0px #cccccc;
+			text-align: center;
+		}
+		#list{
+			float: left;
+			margin-right: 20px;
+			text-align: center;
+		}
+		.dropdown ul{
+			display: inline;
+			margin-top: 0px 0px;
+		}
+		.dropdown li{
+			list-style-type: none;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			margin-left: 5px;
+		}
+		.dropdownContents{
+			display: none;
+			background-color: #ccc;
+			position: absolute;
+			width: 210px;
+			margin: 1px;
+			background-image: linear-gradient(to bottom, pink, white);
+			transition-timing-function: linear;
+		}
+		.dropdown:hover .dropdownContents{
+			display: block;
+		}
+		.dropdown{
+			display: inline-block;
+			margin-top: 8px;
+		}
+		#nav1{
+			margin-left: auto;
+		}
+		#visual{
+			margin: 5px 0px;
+			text-align: center;
+		}
+		nav{
+			margin: 5px;
+			padding-bottom: 5px;
+			background-color: pink;
+			width: 1300px;
+			border: solid 1px #cccccc;
+			margin: auto;
+		}
+
+		.dropdown2 li{
+			list-style-type: none;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			margin-left: 5px;
+			display: inline;
+		}
+		.dropdownContents2{
+			display: none;
+			background-color: #ccc;
+			position: absolute;
+			width: 1000px;
+			text-align: center;
+			margin: 1px;
+		}
+		.dropdown2:hover .dropdownContents2{
+			display: block;
+		}
+		.dropdown2{
+			
+			margin-top: 8px;
+			padding: 5px;
+			background-color: yellow;
+			display: inline;
+			
+		}
+
+
+		.dropdown3 li{
+			list-style-type: none;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			margin-left: 5px;
+			display: inline;
+		}
+		.dropdownContents3{
+			display: none;
+			background-color: #ccc;
+			position: absolute;
+			width: 1000px;
+			margin: 1px;
+			text-align: center;
+		}
+		.dropdown3:hover .dropdownContents3{
+			display: block;
+			
+		}
+		.dropdown3{
+			
+			margin-top: 8px;
+			padding: 5px;
+			background-color: yellow;
+			display: inline;
+			
+		}
+
+		
+		.dropdown4 li{
+			list-style-type: none;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			margin-left: 5px;
+			display: inline;
+		}
+		.dropdownContents4{
+			display: none;
+			background-color: #ccc;
+			position: absolute;
+			width: 1000px;
+			margin: 1px;
+		}
+		.dropdown4:hover .dropdownContents4{
+			display: block;
+		}
+		.dropdown4{
+			margin-top: 8px;
+			padding: 5px;
+			background-color: yellow;
+			display: inline;
+			
+		}
+
+		section{
+			margin-top: 5px;
+			border: solid 0px #cccccc;
+			text-align: center;
+			margin-bottom: 5px;
+		}
+		.happy li{
+			display: inline;
+		}
+		footer{
+			margin-top: 5px;
+			margin-bottom: 5px;
+			background-color: black;
+			color: white;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+		}
+		footer div{
+			display: inline;
+		}
+		aside{
+			width: 40px;
+		}
+		#title{
+			text-align: center;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		#gogo a{
+			text-decoration: none;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+	<div id="header1">
+		<div id = "top1">
+			 <a href="file:///C:/work/index5.html">여행</a>
+		</div>
+		<div id = "top2">
+			<a href="file:///C:/work/index2.html">항공권</a>
+		</div>
+		<div id = "top3">
+			<a href="file:///C:/work/index3.html">호텔</a>
+		</div>
+	</div>
+</header>
+	<div class="clear"></div> <!--float 속성 해제 -->
+
+<nav>
+	<div id="nav1">
+		<div id="list">
+			<img src="./img./list.PNG"> 
+		</div>
+	
+		<div class = "dropdown">
+		<ul><h3> <a href="file:///C:/work/index8.html">테마여행</a></h3>
+			<div class="dropdownContents">
+				<li> <a href="file:///C:/work/index6.html">해외패키지</a></li>
+				<li> <a href="file:///C:/work/index7.html">프리미엄</a></li>
+				<li> <a href="file:///C:/work/index.html">자유여행</a></li>
+				<li> <a href="file:///C:/work/index9.html">국내여행 </a></li>
+			</div>	
+		</ul>
+		</div>
+	</div>
+</nav>
+
+	<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+<div id="visual">
+	<img src="./img./no46.PNG" width="247">
+	<img src="./img./no47.PNG" width="247">
+	<img src="./img./no48.PNG" width="247">
+	<img src="./img./no49.PNG" width="247">
+	<img src="./img./no50.PNG" width="247">
+</div>
+
+<section>
+<div class = "beauty">
+<h3>테마로 만나는 허니문</h3>
+</div>
+</section>
+	
+<section>
+	<div class = "dropdown2">
+		#힐링 휴양 &nbsp &nbsp
+			<div class="dropdownContents2">
+				<img src="./img./no67.PNG" width="1200">
+			</div>
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+	<div class = "dropdown3">
+		#담당 MD 추천 &nbsp &nbsp
+			<div class="dropdownContents3">
+				<img src="./img./no68.PNG" width="1200">
+			</div>
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+	<div class = "dropdown3">
+		#가이드허니문 &nbsp &nbsp
+			<div class="dropdownContents3">
+				<img src="./img./no69.PNG" width="1200">
+			</div>		
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+	<div class = "dropdown4">
+		#자유허니문
+			<div class="dropdownContents4">
+				<img src="./img./no70.PNG" width="1200">
+			</div>		
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+
+<section id="go">
+	<img src="./img./no75.PNG" width="1250">
+</section>
+
+<section>
+<div class = "beauty">
+<h3>테마로 만나는 크루즈여행</h3>
+</div>
+</section>
+	
+<section>
+	<div class = "dropdown2">
+		#국내출발 &nbsp &nbsp
+			<div class="dropdownContents2">
+				<img src="./img./no71.PNG" width="800" height="230">
+				<!--img src="./img./no34.PNG" width="600" height="150"-->
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+	<div class = "dropdown3">
+		#아시아 &nbsp &nbsp
+			<div class="dropdownContents3">
+				<img src="./img./no72.PNG" width="200" height="240">
+			</div>
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+	<div class = "dropdown3">
+		#미주/지중해 &nbsp &nbsp
+			<div class="dropdownContents3">
+				<img src="./img./no73.PNG" width="500" height="240">
+			</div>		
+	</div>
+</section>
+
+<div class="clear"></div><!--float 속성 해제-->
+
+<section>
+	<div class = "dropdown4">
+		#러시아/북유럽
+			<div class="dropdownContents4">
+				<img src="./img./no74.PNG" width="800" height="240">
+			</div>		
+	</div>
+</section>
+
+<section id="go">
+	<img src="./img./no14.PNG" width="1250">
+</section>
+
+<section>
+<div class = "beauty">
+<h3>노랑풍선 고객 여행기</h3>
+<img src="./img./후기.PNG" width="1250">
+</div>
+</section>
+
+<section id="go">
+	<img src="./img./no15.PNG" width="1250">
+</section>
+
+<footer>
+	<div id = "gogo">
+		<a id="login" href="file:///C:/work/index.html">로그인</a>
+	</div>
+	<div>
+		|
+	</div>
+	<div id = "gogo">
+		예약확인/결제
+	</div>
+	<div>
+		|
+	</div>
+	<div id = "gogo">
+		기업/단체문의
+	</div>
+</footer>
+
+<section>
+	<div id="sns">
+		<img src="./img./facebook.PNG">
+		<img src="./img./insta.PNG">
+		<img src="./img./kakao.PNG">
+		<img src="./img./story.PNG">
+		<img src="./img./youtube.PNG">
+	</div>
+</section>
+
+<section>
+	<div id="title2">
+		<ul><h3>상담대표번호</h3>
+			<div id="list2">
+			<li>여행/호텔 상담 &nbsp 1544-2288 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 부산지사 &nbsp 051-710-7744</li>
+			<li>항공권 상담 &nbsp 1544-2288 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 대구지사 &nbsp 053-720-7744</li>
+		</div>
+		</ul>
+	</div>
+</sections>
+
+<footer>
+	<div id = "gogo">
+		개인정보처리방침 |
+	</div>
+	<div id = "gogo">
+		인터넷회원규정 |
+	</div>
+	<div id = "gogo"> 
+		여행약관 |
+	</div>
+	<div id="gogo">
+		여행자보험
+	</div>
+
+</footer>
+
+</body>
+</html>
