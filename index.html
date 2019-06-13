@@ -66,12 +66,10 @@
 		}
 		.dropdownContents{
 			display: none;
-			background-color: #ccc;
 			position: absolute;
 			width: 210px;
 			margin: 1px;
 			background-image: linear-gradient(to bottom, pink, white);
-			transition-timing-function: linear;
 			
 		}
 		.dropdown:hover.dropdownContents{
@@ -212,6 +210,22 @@
 			text-decoration: none;
 			color: white;
 		}
+		div.rotate{
+			background-color: lime;
+			border: 1px, solid, black;
+			transform: rotate(35deg); 
+			width: 100px;
+		}
+		div.rotate2{
+			background-color: lime;
+			border: 1px, solid, black;
+			transform: rotate(135deg); 
+			width: 100px;
+			transition-timing-function: ease-in-out; 
+		}
+		div.rotate2:hover{
+			transform: rotate(35deg);
+		}
 	</style>
 </head>
 
@@ -238,18 +252,18 @@
 		</div>
 	
 		<div class = "dropdown">
-		<ul><h3><a href="index.html">자유여행</a></h3>
+		<ul><h3><a href = "index.html">자유여행</a></h3>
 			<div class="dropdownContents">
-				<li><a href="index6.html">해외패키지</a></li>
-				<li><a href="index7.html">프리미엄</a></li>
-				
-				<li><a href="index8.html">테마여행</a></li>
-				<li><a href="index9.html">국내여행</a></li>
+				<li><a href = "index7.html">프리미엄</a></li>
+				<li><a href = "index6.html">해외패키지</a></li>
+				<li><a href = "index8.html">테마여행</a></li>
+				<li><a href = "index9.html">국내여행</a></li>
 			</div>	
 		</ul>
 		</div>
 	</div>
 </nav>
+
 
 	<div class="clear"></div><!--float 속성 해제-->
 
@@ -391,6 +405,12 @@
 <div class = "beauty">
 <h3>노랑풍선 고객 여행기</h3>
 <img src="./img/후기.PNG" width="1250">
+	<div class="rotate">
+		여 &nbsp &nbsp &nbsp &nbsp 행
+	</div>
+	<div class="rotate2">
+		가 &nbsp &nbsp &nbsp &nbsp 자
+	</div>
 </div>
 </section>
 
